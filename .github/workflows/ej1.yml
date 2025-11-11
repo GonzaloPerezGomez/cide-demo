@@ -1,0 +1,17 @@
+name: Wallet test
+
+on: push
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Bajar codigo
+        uses: actions/checkout@v5
+
+      - name: Bajar lirberia
+        run: pip install pytest
+
+      - name: Probar:
+        run: pytest test.py
