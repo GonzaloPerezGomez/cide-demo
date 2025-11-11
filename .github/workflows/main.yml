@@ -3,7 +3,8 @@ name: Primer workglow
 on: push
 
 jobs:
-  runs-on: ubuntu-latest
+  validar:
+    runs-on: ubuntu-latest
 
   steps:
     - name: Monstrar mensaje
