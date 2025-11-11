@@ -13,5 +13,5 @@ jobs:
       - name: Bajar lirberia
         run: pip install pytest
 
-      - name: Probar:
+      - name: Probar
         run: pytest test.py
