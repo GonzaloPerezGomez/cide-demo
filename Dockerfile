@@ -2,4 +2,4 @@ FROM  python:slim
 
 COPY main.py /Code/main.py
 
-RUN 
+CMD python3 /Code/main.py
