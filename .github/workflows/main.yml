@@ -17,7 +17,7 @@ jobs:
         run: python3 main.py
 
       - name: Crear Imagen Docker
-        run: Docker build -t gperez/holamundo .
+        run: docker build -t gperez/holamundo .
 
       - name: Probar contenedor docker
         run: docker run gperez/holamundo
