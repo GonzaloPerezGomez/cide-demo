@@ -1,0 +1,10 @@
+name: Primer workglow
+
+on: push
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Monstrar mensaje
+      run: echo "Hola mundo Actions"
