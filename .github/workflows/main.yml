@@ -1,4 +1,4 @@
-name: Primer workglow
+name: Primer workflow
 
 on: push
 
@@ -6,6 +6,7 @@ jobs:
   validar:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Monstrar mensaje
-      run: echo "Hola mundo Actions"
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Hola mundo Actions"
+
